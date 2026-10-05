@@ -26,6 +26,8 @@ void main () {
       case '2':
       stdout.write("Masukkan Nomor Plat Mobil: ");
       var nama = stdin.readLineSync();
+
+      
       if (nama != null && nama.isNotEmpty) {
         waitinglist.add(nama.trim());
         print("'$nama' Berhasil Dimasukkin ke dalam List!!");
